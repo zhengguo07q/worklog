@@ -19,7 +19,7 @@ services:
     networks:
       - sc-net
     volumes:
-      - ./nacos/prometheus.yaml:/etc/prometheus/prometheus.yml
+      - ./nacos:/etc/prometheus #只能挂载目录
     ports:
       - "9090:9090"
     depends_on:

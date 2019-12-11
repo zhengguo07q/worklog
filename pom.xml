@@ -14,7 +14,7 @@
         <module>service-organization</module>
         <module>service-pay</module>
         <module>service-cms</module>
-        <module>gateway</module>
+        <module>library-gateway</module>
         <module>test</module>
     </modules>
 
@@ -93,6 +93,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <project.docker.url>http://192.168.31.215:2375</project.docker.url>
     </properties>
 
     <dependencies>
@@ -225,6 +226,26 @@
                     </execution>
                 </executions>
             </plugin>
+                <!--docker镜像build插件-->
+                <plugin>
+                    <groupId>com.spotify</groupId>
+                    <artifactId>docker-maven-plugin</artifactId>
+                    <version>1.2.0</version>
+                    <configuration>
+                        <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
+                        <imageName>worklog/${project.artifactId}</imageName>
+                        <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+                        <rm>true</rm>
+                        <resources>
+                            <resource>
+                                <targetPath>/</targetPath>
+                                <directory>${project.build.directory}</directory>
+                                <include>${project.build.finalName}.jar</include>
+                            </resource>
+                        </resources>
+                        <dockerHost>${project.docker.url}</dockerHost>
+                    </configuration>
+                </plugin>
         </plugins>
     </build>
 </project>

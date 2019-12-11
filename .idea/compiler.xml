@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,12 +10,12 @@
         <module name="service-cms" />
         <module name="service-organization" />
         <module name="authorization-server" />
-        <module name="gateway-web" />
         <module name="test_jwt" />
-        <module name="gateway-admin" />
+        <module name="library-gateway-web" />
         <module name="authentication-server" />
         <module name="authentication-client" />
         <module name="test_feign" />
+        <module name="library-gateway-admin" />
       </profile>
     </annotationProcessing>
   </component>

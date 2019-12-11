@@ -10,16 +10,16 @@
     </parent>
 
     <groupId>com.goleee</groupId>
-    <artifactId>gateway</artifactId>
+    <artifactId>library-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>gateway</name>
+    <name>library-gateway</name>
     <description>Demo Gateway project for Spring Cloud</description>
 
     <modules>
-        <module>gateway-web</module>
-        <module>gateway-admin</module>
+        <module>library-gateway-web</module>
+        <module>library-gateway-admin</module>
     </modules>
 
     <dependencies>
