@@ -8,12 +8,9 @@ services:
     networks:
       - sc-net
     volumes:
-      - ../library-gateway/library-gateway-admin/src/main/db:/sql
-     # - ./init-db.sh:/usr/bin/init-db.sh
+      - ./db/library-gateway-admin:/sql
     environment:
       MYSQL_ROOT_PASSWORD: root123
-   # entrypoint: /usr/bin/init-db.sh
-    #command: ping 0.0.0.0
 
 
   #网关服务

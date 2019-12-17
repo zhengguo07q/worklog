@@ -1,4 +1,4 @@
-FROM mysql:5.7
+FROM ubuntu
 MAINTAINER 85938406@qq.com
 ENV WORK_PATH /sql
 RUN mkdir -p $WORK_PATH

@@ -42,15 +42,13 @@ services:
       MYSQL_ROOT_PASSWORD: root123
 
   mysql-init:
-    image: mysql:5.7
-    command: /init-db.sh
+    image: mysql-init-db:latest
     networks:
       - sc-net
     volumes:
-      - ../auth/db:/sql/auth
-      - ../gateway/gateway-admin/src/main/db:/sql/gateway
-      - ../sysadmin/db:/sql/sysadmin
-      - ./init-db.sh:/init-db.sh
+      - ./db/library-auth:/sql/library-auth
+      - ./db/library-gateway-admin:/sql/library-gateway-admin
+      - ./db/service-organization:/sql/service-organization
     environment:
       MYSQL_ROOT_PASSWORD: root123
 

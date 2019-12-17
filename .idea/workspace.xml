@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/db/library-gateway-admin/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/db/service-organization/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/config-memory.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/nacos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-performance.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-server.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/DECISION_TAB.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/DECISION_TAB.LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/LATEST.LOG" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/LATEST.LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/quorum/rabbit@b700865eda41/00000001.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_exchange.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_exchange.DCD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_exchange.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_queue.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_queue.DCD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_durable_queue.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_runtime_parameters.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_runtime_parameters.DCD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_runtime_parameters.DCL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/quorum/rabbit@b700865eda41/00000003.wal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_serial" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_serial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user.DCD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user.DCL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user_permission.DCD" beforeDir="false" afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user_permission.DCD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/rabbit_user_permission.DCL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/mysql/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/devops/mysql/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/mysql/init-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/devops/mysql/init-db.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.gateway-spring.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.gateway-spring.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-auth/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/db/library-auth/db.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +50,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-cms/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose/db/service-organization" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,13 +64,19 @@
       <recent name="$PROJECT_DIR$/docker-compose/command" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-compose/db/service-organization" />
+      <recent name="$PROJECT_DIR$/docker-compose/db/library-auth" />
+      <recent name="$PROJECT_DIR$/docker-compose/sql/library-gateway-admin" />
+      <recent name="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/db" />
       <recent name="$PROJECT_DIR$/service-cms/src/main/resources" />
-      <recent name="$PROJECT_DIR$/service-cms/src/main/java/com/goleee/service/cms/config" />
-      <recent name="$PROJECT_DIR$/service-cms/src/main/java/com/goleee/service/cms" />
-      <recent name="$PROJECT_DIR$/service-cms/db" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -92,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.mysql/Dockerfile">
+  <component name="RunManager" selected="Docker.db">
     <configuration name="JWTUtilTest.parseJWT" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="test_jwt" />
       <extension name="coverage">
@@ -205,15 +201,10 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose/docker-compose.gateway-spring.yml.library-gateway-admin-db-init: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="ubuntu">
+    <configuration name="docker-compose/docker-compose.nacos.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="ubuntu">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="services">
-            <list>
-              <option value="library-gateway-admin-db-init" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose/docker-compose.gateway-spring.yml" />
+          <option name="sourceFilePath" value="docker-compose/docker-compose.nacos.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -227,20 +218,6 @@
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose/docker-compose.gateway-spring.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="mysql/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="ubuntu">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildCliOptions" value="" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="" />
-          <option name="commandLineOptions" value="" />
-          <option name="sourceFilePath" value="docker-compose/devops/mysql/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -264,8 +241,6 @@
       <item itemvalue="Docker.db" />
       <item itemvalue="Docker.nacos" />
       <item itemvalue="Docker.library-gateway-spring" />
-      <item itemvalue="Docker.mysql/Dockerfile" />
-      <item itemvalue="Docker.docker-compose/docker-compose.gateway-spring.yml.library-gateway-admin-db-init: Compose Deployment" />
       <item itemvalue="Spring Boot.GatewayAdminApplication" />
       <item itemvalue="Spring Boot.GatewayAdminApplication (1)" />
       <item itemvalue="Spring Boot.GatewayApplication" />
@@ -276,10 +251,11 @@
       <item itemvalue="Spring Boot.Oauth2AuthorizationApplication (1)" />
       <item itemvalue="Spring Boot.OrganizationApplication" />
       <item itemvalue="Spring Boot.OrganizationApplication (1)" />
+      <item itemvalue="Docker.docker-compose/docker-compose.nacos.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose/docker-compose.gateway-spring.yml.library-gateway-admin-db-init: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose/docker-compose.nacos.yml: Compose Deployment" />
         <item itemvalue="Application.MyApp" />
         <item itemvalue="Android JUnit.JWTUtilTest.parseJWT" />
       </list>
@@ -292,7 +268,18 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@77371032" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2557379f" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2557379f" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@257b6126" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2557379f" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@257b6126" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@72de444" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +305,25 @@
       <workItem from="1576086991485" duration="351000" />
       <workItem from="1576087348923" duration="718000" />
       <workItem from="1576088075448" duration="15471000" />
+      <workItem from="1576103910826" duration="4973000" />
+      <workItem from="1576154751667" duration="4808000" />
+      <workItem from="1576461181704" duration="5978000" />
     </task>
+    <task id="LOCAL-00001" summary="docker">
+      <created>1576103991341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576103991342</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docker">
+      <created>1576131567898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576131567898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +344,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
