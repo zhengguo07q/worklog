@@ -2,21 +2,10 @@
 version: '3'
 services:
 
-  #library-gateway-admin Mysql数据库初使化
-  library-gateway-admin-db-init:
-    image: mysql-init-db:latest
-    networks:
-      - sc-net
-    volumes:
-      - ./db/library-gateway-admin:/sql
-    environment:
-      MYSQL_ROOT_PASSWORD: root123
-
-
   #网关服务
   library-gateway-web:
     image: worklog/library-gateway-web:latest
-    container_name: sc-library-gateway-web
+    container_name: library-gateway-web
     restart: always
     networks:
       - sc-net
@@ -29,7 +18,7 @@ services:
   #网关管理服务
   library-gateway-admin:
     image: worklog/library-gateway-admin:latest
-    container_name: sc-library-gateway-admin
+    container_name: library-gateway-admin
     restart: always
     networks:
       - sc-net

@@ -28,3 +28,8 @@ mysql默认账号密码：root/root123
 ## 启动MOSS
 
 `docker-compose -f docker-compose.yml -f docker-compose.moss.yml up moss`
+
+
+##访问注册中心
+http://192.168.31.215:8848/nacos/index.html  
+nacos nacos

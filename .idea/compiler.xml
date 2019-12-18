@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-cms" />
+        <module name="library-authentication-server" />
         <module name="service-organization" />
-        <module name="authorization-server" />
-        <module name="test_jwt" />
-        <module name="library-gateway-web" />
-        <module name="authentication-server" />
-        <module name="authentication-client" />
         <module name="test_feign" />
         <module name="library-gateway-admin" />
+        <module name="test_jwt" />
+        <module name="library-gateway-web" />
+        <module name="library-authentication-client" />
+        <module name="library-authorization-server" />
+        <module name="test_flyway" />
+        <module name="test_amqp" />
+        <module name="service-cms" />
       </profile>
     </annotationProcessing>
   </component>

@@ -3,9 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-auth" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/library-auth/authentication-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/library-auth/authentication-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/library-auth/authorization-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-auth/library-authentication-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-auth/library-authentication-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-auth/library-authorization-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-gateway/library-gateway-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-gateway/library-gateway-web" charset="UTF-8" />
@@ -13,7 +13,9 @@
     <file url="file://$PROJECT_DIR$/service-organization" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/test_amqp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/test_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/test_flyway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/test_jwt" charset="UTF-8" />
   </component>
 </project>

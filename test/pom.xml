@@ -14,6 +14,8 @@
     <modules>
         <module>test_jwt</module>
         <module>test_feign</module>
+        <module>test_flyway</module>
+        <module>test_amqp</module>
     </modules>
 
 

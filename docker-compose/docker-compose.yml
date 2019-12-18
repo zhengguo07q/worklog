@@ -1,8 +1,8 @@
 version: '3'
 services:
-  redis: 
+  ds-redis:
     image: redis:alpine
-    container_name: sc-redis
+    container_name: ds-redis
     restart: always
     volumes:
       - ../data/redis:/data
@@ -14,9 +14,9 @@ services:
       - 6379:6379
     env_file: .env
 
-  rabbitmq:
+  ds-rabbitmq:
     image: rabbitmq:management-alpine
-    container_name: sc-rabbitmq
+    container_name: ds-rabbitmq
     restart: always
     volumes:
       - ../data/rabbitmq:/var/lib/rabbitmq/mnesia
@@ -27,9 +27,9 @@ services:
       - 15672:15672
     env_file: .env
 
-  mysql:
+  ds-mysql:
     image: mysql:5.7
-    container_name: sc-mysql
+    container_name: ds-mysql
     restart: always
     networks:
       - sc-net
@@ -41,23 +41,12 @@ services:
       TZ: Asia/Shanghai
       MYSQL_ROOT_PASSWORD: root123
 
-  mysql-init:
-    image: mysql-init-db:latest
-    networks:
-      - sc-net
-    volumes:
-      - ./db/library-auth:/sql/library-auth
-      - ./db/library-gateway-admin:/sql/library-gateway-admin
-      - ./db/service-organization:/sql/service-organization
-    environment:
-      MYSQL_ROOT_PASSWORD: root123
-
-  postgres:
+  ds-postgres:
     restart: always
     networks:
       - sc-net
     image: postgres:9.6.2
-    container_name: sc-postgres
+    container_name: ds-postgres
     ports:
       - 5432:5432
     environment:

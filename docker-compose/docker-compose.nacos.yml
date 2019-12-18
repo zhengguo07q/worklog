@@ -1,6 +1,6 @@
 version: '3'
 services:
-  nacos:
+  library-register-nacos:
     image: nacos/nacos-server:1.1.3
     container_name: sc-nacos-standalone
     networks:
@@ -13,8 +13,8 @@ services:
     ports:
       - "8848:8848"
 
-  prometheus:
-    container_name: sc-prometheus
+  devops-prometheus:
+    container_name: devops-prometheus
     image: prom/prometheus:latest
     networks:
       - sc-net
@@ -23,5 +23,5 @@ services:
     ports:
       - "9090:9090"
     depends_on:
-      - nacos
+      - library-register-nacos
     restart: on-failure

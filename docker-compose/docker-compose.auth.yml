@@ -2,9 +2,9 @@
 version: '3'
 services:
   #授权服务
-  authorization-server:
-    image: cike/authorization-server:latest
-    container_name: sc-authorization-server
+  library-authorization-server:
+    image: worklog/library-authorization-server:latest
+    container_name: library-authorization-server
     restart: always
     networks:
       - sc-net
@@ -14,12 +14,12 @@ services:
     environment:
       TZ: Asia/Shanghai
     depends_on:
-      - authentication-server
+      - library-authentication-server
 
   #认证服务
-  authentication-server:
-    image: cike/authentication-server:latest
-    container_name: sc-authentication-server
+  library-authentication-server:
+    image: worklog/library-authentication-server:latest
+    container_name: library-authentication-server
     restart: always
     networks:
       - sc-net
@@ -29,12 +29,12 @@ services:
     environment:
       TZ: Asia/Shanghai
     depends_on:
-      - organization
+      - service-organization
 
   #组织服务
-  organization:
-    image: cike/organization:latest
-    container_name: sc-organization
+  service-organization:
+    image: worklog/service-organization:latest
+    container_name: service-organization
     restart: always
     networks:
       - sc-net
@@ -43,3 +43,7 @@ services:
     env_file: .env
     environment:
       TZ: Asia/Shanghai
+
+networks:
+  sc_net:
+    external: false

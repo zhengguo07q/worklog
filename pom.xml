@@ -94,6 +94,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.docker.url>http://192.168.31.215:2375</project.docker.url>
+        <project.flyway.url>jdbc:mysql://192.168.31.215:3306/test?useSSL=false</project.flyway.url>
     </properties>
 
     <dependencies>
@@ -169,12 +170,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--web基础类库-->
-        <dependency>
-            <groupId>com.springboot.cloud</groupId>
-            <artifactId>web</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <!--数据库-->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -205,10 +200,6 @@
             <version>2.9.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
@@ -246,6 +237,23 @@
                         <dockerHost>${project.docker.url}</dockerHost>
                     </configuration>
                 </plugin>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>5.0.3</version>
+                <configuration>
+                    <url>${project.flyway.url}</url>
+                    <user>root</user>
+                    <password>root123</password>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>8.0.15</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
         </plugins>
     </build>
 </project>
