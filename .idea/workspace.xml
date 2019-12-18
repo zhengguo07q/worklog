@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/elasticsearch/data/nodes/0/_state/global-1.st" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/elasticsearch/data/nodes/0/_state/node-7.st" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/elasticsearch/data/nodes/0/node.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/config-memory.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/config-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/nacos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/nacos_gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/nacos_gc.log.0.current" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-distro.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-performance.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-raft.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/naming-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nacos-server/logs/start.out" beforeDir="false" afterPath="$PROJECT_DIR$/data/nacos-server/logs/start.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +417,7 @@
       <workItem from="1576154751667" duration="4808000" />
       <workItem from="1576461181704" duration="31989000" />
       <workItem from="1576635420949" duration="4465000" />
-      <workItem from="1576668765874" duration="7527000" />
+      <workItem from="1576668765874" duration="7772000" />
     </task>
     <task id="LOCAL-00001" summary="docker">
       <created>1576103991341</created>
@@ -466,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576672043149</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="去除错误的依赖">
+      <created>1576679504204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576679504204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
