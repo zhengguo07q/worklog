@@ -1,208 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/mysql/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbitmq/rabbit@b700865eda41/quorum/rabbit@b700865eda41/00000005.wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/main/java/com/goleee/test/amqp/AmqpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/main/java/com/goleee/test/amqp/AmqpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/main/java/com/goleee/test/amqp/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/main/java/com/goleee/test/amqp/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_amqp/src/test/java/com/goleee/test/amqp/AmqpApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/src/main/java/com/goleee/test/flyway/TestFlywayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/src/main/resources/db/migration/V1__Create_person_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/src/main/resources/db/migration/V2__Add_person.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_flyway/test_flyway.iml" afterDir="false" />
+    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="docker">
+      <change afterPath="$PROJECT_DIR$/docker-compose/config/nacos/init.d/custom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/docker-compose.test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-register/library-register.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-register/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-register/src/main/java/com/goleee/library/register/RegisterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-register/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/db/library-auth/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/resources/db/migrate/V1__init_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/db/library-gateway-admin/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/resources/db/migrate/V1__init_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/db/service-organization/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/src/main/resources/db/migrate/V1__init_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/mysql/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/mysql/init-db.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.auth.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.auth.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.center.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/elasticsearch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/elasticsearch/elasticsearch.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/kibana.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/kibana/kibana.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/alarm-settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/alarm-settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/component-libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/component-libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.devops.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.devops.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.gateway-spring.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.gateway-spring.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/main/java/com/goleee/library/auth/client/config/FeignOkHttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/main/java/com/goleee/library/auth/client/config/FeignOkHttpConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/main/java/com/goleee/library/auth/client/provider/AuthProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/main/java/com/goleee/library/auth/client/provider/AuthProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/main/java/com/goleee/library/auth/client/service/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/main/java/com/goleee/library/auth/client/service/IAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/main/java/com/goleee/library/auth/client/service/impl/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/main/java/com/goleee/library/auth/client/service/impl/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-client/src/test/java/com/goleee/library/auth/client/service/impl/AuthServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-client/src/test/java/com/goleee/library/auth/client/service/impl/AuthServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/Oauth2AuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/Oauth2AuthenticationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/config/BusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/config/BusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/config/LoadResourceDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/config/LoadResourceDefine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/config/WebServerSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/config/WebServerSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/events/BusReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/events/BusReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/provider/ResourceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/provider/ResourceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/provider/ResourceProviderFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/provider/ResourceProviderFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/rest/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/rest/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/rest/HttpServletRequestAuthWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/rest/HttpServletRequestAuthWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/service/IAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/service/IAuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/service/IResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/service/IResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/service/NewMvcRequestMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/service/NewMvcRequestMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/service/impl/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/service/impl/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/auth/authentication/service/impl/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/auth/authentication/service/impl/ResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/java/com/goleee/library/sysadmin/organization/entity/po/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/java/com/goleee/library/sysadmin/organization/entity/po/Resource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/test/java/com/goleee/library/auth/authentication/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/test/java/com/goleee/library/auth/authentication/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/test/java/com/goleee/library/auth/authentication/service/impl/AuthenticationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/test/java/com/goleee/library/auth/authentication/service/impl/AuthenticationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/test/java/com/goleee/library/auth/authentication/service/impl/ResourceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/test/java/com/goleee/library/auth/authentication/service/impl/ResourceServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authentication-server/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authentication-server/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/Oauth2AuthorizationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/Oauth2AuthorizationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/config/WebServerSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/config/WebServerSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/exception/AuthErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/exception/AuthErrorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomOauthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomOauthException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomOauthExceptionSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomOauthExceptionSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomWebResponseExceptionTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/exception/CustomWebResponseExceptionTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/exception/GlobalExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/exception/GlobalExceptionHandlerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/MobileUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/MobileUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/enhancer/CustomTokenEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/enhancer/CustomTokenEnhancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileAuthenticationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileAuthenticationToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileTokenGranter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/oauth2/granter/MobileTokenGranter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/provider/OrganizationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/provider/OrganizationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/provider/OrganizationProviderFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/provider/OrganizationProviderFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/provider/SmsCodeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/provider/SmsCodeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/provider/SmsCodeProviderFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/provider/SmsCodeProviderFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/service/impl/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/service/impl/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/java/com/goleee/auth/authorization/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/java/com/goleee/auth/authorization/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/test/java/com/goleee/auth/authorization/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/test/java/com/goleee/auth/authorization/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/authorization-server/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/library-authorization-server/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/db/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-web/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-web/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-gateway/library-gateway-web/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/library-gateway/library-gateway-web/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/moss/mysql/moss-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/moss/mysql/moss-init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/nacos/prometheus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/prometheus/prometheus-standalone.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/db/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/logs/spring.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/OrganizationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/BusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MyMetaObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MyRedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MybatisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/config/WebServerMvcConfigurerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/GroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/MenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/PositionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/ResourceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/RoleResourceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/UserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/GroupForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/GroupQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/MenuForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/MenuQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/PositionForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/PositionQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/ResourceForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/ResourceQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleUpdateForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserQueryForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserUpdateForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/GroupQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/MenuQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/PositionQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/ResourceQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/RoleQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/UserQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Group$GroupBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Menu$MenuBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Position$PositionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Resource$ResourceBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Role$RoleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/RoleResource$RoleResourceBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/RoleResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/UserRole$UserRoleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/vo/UserVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/events/EventSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/GlobalExceptionHandlerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/OrganizationErrorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/RoleNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/UserNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/GroupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/PositionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/ResourceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IGroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IPositionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IRoleResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IUserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/GroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/MenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/PositionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/ResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/RoleResourceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/UserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/target/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-organization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-organization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worklog.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,26 +76,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-organization/src/main/resources/db/migrate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose/config/nacos" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/test_flyway/src/main/resources" />
-      <recent name="$PROJECT_DIR$/docker-compose/devops/mysql" />
-      <recent name="$PROJECT_DIR$/docker-compose" />
-      <recent name="$PROJECT_DIR$/docker-compose/command" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service-organization/src/main/resources/db/migrate" />
-      <recent name="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/resources/db/migrate" />
-      <recent name="$PROJECT_DIR$/library-gateway/library-gateway-admin/src/main/resources" />
-      <recent name="$PROJECT_DIR$/library-auth/library-authorization-server/src/main/resources/db/migrate" />
-      <recent name="$PROJECT_DIR$/docker-compose/db/service-organization" />
+      <recent name="$PROJECT_DIR$/docker-compose/config/nacos" />
+      <recent name="$PROJECT_DIR$/docker-compose/config/prometheus" />
+      <recent name="$PROJECT_DIR$/docker-compose/nacos" />
+      <recent name="$PROJECT_DIR$/docker-compose/docker-build" />
+      <recent name="$PROJECT_DIR$/docker-compose/nacos-docker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-compose/config" />
+      <recent name="$PROJECT_DIR$/docker-compose/config/elasticsearch" />
+      <recent name="$PROJECT_DIR$/docker-compose/config/kibana" />
+      <recent name="$PROJECT_DIR$/docker-compose/nacos/init.d" />
+      <recent name="$PROJECT_DIR$/test/test_flyway/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.devops">
+  <component name="RunManager" selected="Docker.db">
     <configuration name="TestFlyway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.goleee.test.flyway.TestFlyway" />
       <module name="test_flyway" />
@@ -417,19 +238,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="auth" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="ubuntu">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="secondarySourceFiles">
-            <list>
-              <option value="docker-compose/docker-compose.yml" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose/docker-compose.auth.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="db" type="docker-deploy" factoryName="docker-compose.yml" server-name="ubuntu">
       <deployment type="docker-compose.yml">
         <settings>
@@ -452,28 +260,6 @@
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose/docker-compose.devops.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="ubuntu">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildCliOptions" value="" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="8443" />
-                <option name="hostPort" value="8443" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="commandLineOptions" value="" />
-          <option name="sourceFilePath" value="library-gateway/library-gateway-web/src/main/docker/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -509,8 +295,9 @@
       <item itemvalue="Docker.db" />
       <item itemvalue="Docker.nacos" />
       <item itemvalue="Docker.library-gateway-spring" />
-      <item itemvalue="Docker.auth" />
-      <item itemvalue="Docker.docker/Dockerfile" />
+      <item itemvalue="Docker.devops" />
+      <item itemvalue="JUnit.AmqpApplicationTests" />
+      <item itemvalue="JUnit.AmqpApplicationTests.hello" />
       <item itemvalue="Spring Boot.GatewayAdminApplication" />
       <item itemvalue="Spring Boot.GatewayAdminApplication (1)" />
       <item itemvalue="Spring Boot.GatewayApplication" />
@@ -522,17 +309,12 @@
       <item itemvalue="Spring Boot.OrganizationApplication" />
       <item itemvalue="Spring Boot.OrganizationApplication (1)" />
       <item itemvalue="Spring Boot.TestFlywayApplication" />
-      <item itemvalue="JUnit.AmqpApplicationTests" />
-      <item itemvalue="JUnit.AmqpApplicationTests.hello" />
-      <item itemvalue="Docker.devops" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AmqpApplicationTests.hello" />
         <item itemvalue="JUnit.AmqpApplicationTests" />
         <item itemvalue="Application.TestFlyway" />
-        <item itemvalue="Docker.docker/Dockerfile" />
-        <item itemvalue="Docker.docker/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +330,18 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5f5cfbf2" type="9fbbdea:ServiceModel$ServiceNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@a0addb2" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@689eed0f" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5f5cfbf2" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@689eed0f" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7e87727d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5f5cfbf2" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@33642078" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -577,7 +370,7 @@
       <workItem from="1576103910826" duration="4973000" />
       <workItem from="1576154751667" duration="4808000" />
       <workItem from="1576461181704" duration="31989000" />
-      <workItem from="1576635420949" duration="4465000" />
+      <workItem from="1576635420949" duration="20716000" />
     </task>
     <task id="LOCAL-00001" summary="docker">
       <created>1576103991341</created>
@@ -600,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576565517975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker">
+      <created>1576640011312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576640011312</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docker">
+      <created>1576640031963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576640031963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
