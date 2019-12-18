@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="docker">
-      <change afterPath="$PROJECT_DIR$/docker-compose/config/nacos/init.d/custom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/docker-compose.test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-register/library-register.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-register/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-register/src/main/java/com/goleee/library/register/RegisterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-register/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a02cb1a9-0e64-49cf-a1fb-95ca60a599a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/elasticsearch.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/elasticsearch/elasticsearch.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/kibana.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/kibana/kibana.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/alarm-settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/alarm-settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/component-libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/component-libraries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/devops/skywalking/config/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/skywalking/config/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.devops.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.devops.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.nacos.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/moss/mysql/moss-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/moss/mysql/moss-init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/nacos/prometheus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/config/prometheus/prometheus-standalone.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -370,7 +350,7 @@
       <workItem from="1576103910826" duration="4973000" />
       <workItem from="1576154751667" duration="4808000" />
       <workItem from="1576461181704" duration="31989000" />
-      <workItem from="1576635420949" duration="20716000" />
+      <workItem from="1576635420949" duration="21542000" />
     </task>
     <task id="LOCAL-00001" summary="docker">
       <created>1576103991341</created>
@@ -407,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576640031963</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="docker">
+      <created>1576678021283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576678021283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
