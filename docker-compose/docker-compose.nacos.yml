@@ -10,6 +10,7 @@ services:
       - MODE=standalone
     volumes:
       - ../data/nacos-server/logs/:/home/nacos/logs
+      - ./config/nacos/
     ports:
       - "8848:8848"
 
@@ -19,7 +20,7 @@ services:
     networks:
       - sc-net
     volumes:
-      - ./nacos:/etc/prometheus #只能挂载目录
+      - ./config/prometheus/prometheus-standalone.yaml:/etc/prometheus/prometheus.yaml #只能挂载目录
     ports:
       - "9090:9090"
     depends_on:
