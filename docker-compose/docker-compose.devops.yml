@@ -38,7 +38,7 @@ services:
     volumes:
       - ../data/elasticsearch/data:/usr/share/elasticsearch/data
       - ../data/elasticsearch/logs:/usr/share/elasticsearch/logs
-      - ./devops/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./config/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
       - sc-net
     ports:
@@ -59,7 +59,7 @@ services:
       - 11800:11800
       - 12800:12800
     volumes:
-      - ./devops/skywalking/config:/apache-skywalking-apm-bin/config:ro
+      - ./config/skywalking/config:/apache-skywalking-apm-bin/config:ro
 
   devops-skywalking-ui:
     image: wutang/skywalking-ui:6.1.0
@@ -82,7 +82,7 @@ services:
     restart: always
     volumes:
       - ../data/kibana/logs:/var/logs/kibana
-      - ./devops/kibana.yml:/etc/kibana/kibana.yml
+      - ./config/kibana/kibana.yml:/etc/kibana/kibana.yml
     networks:
       - sc-net
     ports:

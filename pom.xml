@@ -16,6 +16,7 @@
         <module>service-cms</module>
         <module>library-gateway</module>
         <module>test</module>
+        <module>library-register</module>
     </modules>
 
     <dependencyManagement>
