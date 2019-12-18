@@ -648,3 +648,69 @@
 
 2019-12-18 23:11:24,509 INFO [long-pulling] client count 0
 
+2019-12-18 23:11:34,475 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:11:34,475 INFO toNotifyTaskSize=0
+
+2019-12-18 23:11:34,509 INFO [long-pulling] client count 0
+
+2019-12-18 23:11:44,476 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:11:44,476 INFO toNotifyTaskSize=0
+
+2019-12-18 23:11:44,509 INFO [long-pulling] client count 0
+
+2019-12-18 23:11:54,476 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:11:54,476 INFO toNotifyTaskSize=0
+
+2019-12-18 23:11:54,509 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:04,476 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:04,476 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:04,510 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:14,477 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:14,477 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:14,510 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:24,477 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:24,477 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:24,510 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:34,477 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:34,477 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:34,510 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:44,477 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:44,477 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:44,511 INFO [long-pulling] client count 0
+
+2019-12-18 23:12:54,478 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:12:54,478 INFO toNotifyTaskSize=0
+
+2019-12-18 23:12:54,511 INFO [long-pulling] client count 0
+
+2019-12-18 23:13:04,478 INFO toNotifyTaskSize=0
+
+2019-12-18 23:13:04,478 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:13:04,511 INFO [long-pulling] client count 0
+
+2019-12-18 23:13:14,478 INFO toNotifyTaskSize=0
+
+2019-12-18 23:13:14,478 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2019-12-18 23:13:14,511 INFO [long-pulling] client count 0
+
