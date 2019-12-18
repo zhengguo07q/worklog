@@ -10,7 +10,7 @@ services:
       - MODE=standalone
     volumes:
       - ../data/nacos-server/logs/:/home/nacos/logs
-      - ./config/nacos/
+      - ./config/nacos/init.d/custom.properties:/home/nacos/init.d/custom.properties
     ports:
       - "8848:8848"
 
