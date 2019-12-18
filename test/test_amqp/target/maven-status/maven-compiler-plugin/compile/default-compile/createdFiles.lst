@@ -1,0 +1,4 @@
+com/goleee/test/amqp/AmqpConfig.class
+com/goleee/test/amqp/Sender.class
+com/goleee/test/amqp/AmqpApplication.class
+com/goleee/test/amqp/Receiver.class
